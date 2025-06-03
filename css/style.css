@@ -1,0 +1,41 @@
+/* Estilos personalizados para a aplicação */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+/* Espaçamento entre as seções e sombra para os cards */
+.card {
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 0.75rem; /* Borda mais arredondada */
+}
+
+.card-header {
+    border-top-left-radius: 0.75rem !important; /* Borda arredondada no cabeçalho */
+    border-top-right-radius: 0.75rem !important;
+    font-weight: bold;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important; /* Sombra sutil */
+}
+
+.table-responsive {
+    margin-top: 20px;
+}
+
+.btn-sm {
+    margin-right: 5px;
+}
+
+footer {
+    background-color: #e9ecef !important;
+    color: #6c757d;
+    border-top: 1px solid #dee2e6;
+}
